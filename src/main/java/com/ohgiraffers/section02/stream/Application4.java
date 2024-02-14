@@ -11,7 +11,7 @@ public class Application4 {
         /* 수업목표. FileWriter를 이해하고 사용할 수 있다. */
         /* FileWriter
         * 프로그램의 데이터를 파일로 내보내기 위한 용도의 스트림이다.
-        * 글자 단위로 데이터를 처리하다.
+        * 글자 단위로 데이터를 처리한다.
         * */
 
         FileWriter fw = null;
