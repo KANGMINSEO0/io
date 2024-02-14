@@ -2,7 +2,7 @@ package com.ohgiraffers.section03.filterstream.dto;
 
 /* 객체를 입출력 하기 위해서는 반드시 직렬화 처리를 해야 한다.
 * 직렬화 대상 클래스에 Serializable 인터페이스 구현하면
-* 직렬화가 필요한 상황인 경우 해당 인터페이스를 상속 받았을 시 데이터를 직렬호 처리한다.
+* 직렬화가 필요한 상황인 경우 해당 인터페이스를 상속 받았을 시 데이터를 직렬화 처리한다.
 * */
 public class MemberDTO implements java.io.Serializable {
 
