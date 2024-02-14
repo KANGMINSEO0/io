@@ -13,7 +13,7 @@ public class MemberDTO implements java.io.Serializable {
     private int age;
     private char gender;
 //    private double point;
-    /* transeient는 특성필드를 직렬화에서 제외하기 위한 키워드 이다.*/
+    /* transient는 특성필드를 직렬화에서 제외하기 위한 키워드 이다.*/
     private /*transient*/ double point;
 
     public MemberDTO(){}
