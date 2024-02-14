@@ -43,7 +43,7 @@ public class Application4 {
         * 반대로 바이트로 변환된 데이터를 다시 객체로 변환하는 기술을 역직렬화라고 한다.
         * */
         MemberDTO[] inputMember = new MemberDTO[3];
-        ObjectInput objIn = null;
+        ObjectInputStream objIn = null;
 
         try {
             objIn = new ObjectInputStream(new BufferedInputStream(new FileInputStream("src/main/java/com/ohgiraffers/section03/filterstream/testObjectStream.txt")));
